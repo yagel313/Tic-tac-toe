@@ -40,7 +40,8 @@ If any of these patterns match the current player's moves, the player wins.
 
 
 simple instructions:
-Setup and Run the Server:
+Setup and Run the Server: 
+run npm install
 Ensure you have Node.js installed on your machine.
 Compile TypeScript into JavaScript (if not done already):
 bash
