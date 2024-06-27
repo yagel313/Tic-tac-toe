@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "module": "commonjs",
+    "target": "es6",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "./Tic-tac-toe/src/**/*.ts",
+    "./Tic-tac-toe/src/client/**/*.html",
+    "./Tic-tac-toe/src/client/**/*.css"
+    // Include HTML files for copying
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
